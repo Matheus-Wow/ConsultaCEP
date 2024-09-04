@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Consulta CEP</title>
+        <script src="./script.js"></script>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+
+    <body>
+        <h2>Consulta CEP</h2>
+        <p>Para consultar, insira o seu CEP!</p>
+        <div class="card">
+            <br>
+            <label for="numerocep" class="label">CEP:</label>
+            <input placeholder="Insira o CEP" id="numerocep" name="numerocep" class="input">
+            <br><br>
+            <button id="btnCep" name="btnCep" onClick="PesquisarCep()">Consultar</button>
+            <br><br>
+            <label for="logradouro" class="label">Logradouro:</label>
+            <input id="logradouro" name="logradouro" class="input" readonly="true">
+
+            <label for="complemento" class="label">Complemento:</label>
+            <input id="complemento" name="complemento" class="input" readonly="true">
+
+            <label for="bairro" class="label">Bairro:</label>
+            <input id="bairro" name="bairro" class="input" readonly="true">
+
+            <label for="cidade" class="label">Cidade:</label>
+            <input id="cidade" name="cidade" class="input" readonly="true">
+
+            <label for="estado" class="label">Estado:</label>
+            <input id="estado" name="estado" class="input" readonly="true">
+
+            <label for="regiao" class="label">Região:</label>
+            <input id="regiao" name="regiao" class="input" readonly="true">
+        </div>
+    </body>
+</html>
